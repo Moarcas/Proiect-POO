@@ -5,7 +5,7 @@
 class ValoareNutritionala {
     int calorii;
 public:
-    ValoareNutritionala(int calorii_) : calorii{calorii_} {
+    explicit ValoareNutritionala(int calorii_) : calorii{calorii_} {
         std::cout << "Constructor de initializare ValoareNutritionala\n";
     }
     ValoareNutritionala(const ValoareNutritionala& other) : calorii{other.calorii} {
