@@ -39,4 +39,5 @@ std::istream& operator>>(std::istream &in, Masa& m) {
 std::ostream& operator<<(std::ostream &out, Masa &m) {
     out << "Numele mancarii: " << m.nume << '\n';
     out << m.v << '\n';
+    return out;
 }
