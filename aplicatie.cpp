@@ -4,7 +4,7 @@
 #include <string.h>
 #include <memory>
 #include <stdexcept>
-#include "../header_files/persoana.h"
+#include "persoana.h"
 
 using MyMapUtilizatori = std::map<int, Persoana*>;
 
